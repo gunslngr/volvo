@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.logo{
+    margin-top: 15px;
+}
+.head{
+    background-image:url(./img/banner.jpg);
+    height: 32rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+  
+}
+.head img{
+    width: 150px;
+    height: 30px;
+     padding-left: 50px; 
+   
+}
+.head h6{
+    
+    color: #fff;
+    padding-right: auto;
+    margin-top: 15px;
+    font-weight: bold;
+    
+}
+.headtitle{
+    font-weight: 400;
+    line-height: 1.18em;
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 55px; 
+    padding-top: 18%; 
+}
+
+.body{
+    letter-spacing: .2px;
+    line-height: 1.5;
+    padding-top: 1em;
+    padding-bottom: 0.42333em;
+    margin-bottom: 0em;
+}
+.bodyimg{
+    
+    height:450px;
+}
+.bodyimg img{
+    height: 440px;
+    object-fit: cover;
+}
+.bodyimgtext{
+    position: absolute;
+    bottom: 26px;
+    left: 50px;
+    color: #fff;
+    font-size: medium;
+}
+.video video{
+    width: 100%;
+}
+.right img{
+    max-width: 100%;
+    height: auto;
+object-fit: cover;
+}
+.left2 img{
+    max-width: 100%;
+    height: auto;
+   object-fit: cover;
+}
+.right2 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.left3 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.footer{
+    margin-top: 8vh;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    
+}
+.footer ul{
+    list-style: none;
+    cursor: pointer;
+    width: 300px;
+}
+.footer p{
+    padding-left:2vw;
+    font-size: small;
+}
+
+.footer li:hover{
+   opacity: 0.5;
+}
+.arrow{
+    height: 15px;
+    width: 15px;
+    margin-left: 7px;
+    margin-top: -5px;
+}
+.arrow:hover{
+    padding-left: 1px;
+}
+.btn-space{
+    margin-right: 5px;
+    
+}
+#scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width:27px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+    font-size: 20px;
+  }
+  
